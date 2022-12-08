@@ -1,0 +1,68 @@
+/*navbar*/
+.navi{
+    padding-top: 5px;
+    padding: 10px;
+    opacity: 75%;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+li{
+    float: left;
+    font-weight: bold;
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active){
+    background-color: #111;
+}
+.active{
+    background-color: #04AA6D;
+}
+
+li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+/*market*/
+.card{
+    box-shadow: 0 4px 8px o rgba(0, 0, 0, 0.2);
+    max-width: 300PX;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.price{
+    color: grey;
+    font-size: 22px;
+}
+.card button{
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover{
+    opacity: 0.7;
+}
+.column{
+        float:left;
+        width: 40%;
+        margin-bottom: 16px;
+        padding: 0 8px;
+    }
